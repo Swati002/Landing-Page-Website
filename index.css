@@ -1,0 +1,85 @@
+/*Default Styling*/
+
+
+/*We can also write body instead of HTML*/
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0;
+    margin: 0;
+}
+
+
+/* descendent selecto [combinators] */
+
+header h1 {
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+nav {
+    width: 20rem;
+    position: relative;
+    /*To move navbar wrt to its default position*/
+    top: 1rem;
+    right: 3rem;
+}
+
+ul {
+    display: flex;
+    justify-content: /*Horizontal alignment*/
+    space-between;
+}
+
+
+/*align items --> Vertical alignment*/
+
+li {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.showcase_img {
+    width: 95vw;
+    margin: 1.5rem;
+    height: 90vh;
+}
+
+article {
+    display: flex;
+    margin: 1rem;
+}
+
+.container {
+    text-align: center;
+    margin: 0 2rem;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+footer {
+    background-color: black;
+    color: #efefef;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; To align horizontally */
+    align-items: center;
+    /* align-items: center; To align vertically */
+}
